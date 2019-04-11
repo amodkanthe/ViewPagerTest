@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                         PagerFragAdapter pagerFragAdapter = (PagerFragAdapter) viewPager.getAdapter();
                         pagerFragAdapter.getBlankFragment().setLabel();
                     }
-                }, 2000);
+                }, 500);
             }
 
             @Override
